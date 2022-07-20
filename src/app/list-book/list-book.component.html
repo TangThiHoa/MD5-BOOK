@@ -1,0 +1,3 @@
+<div *ngFor="let item of list">
+  <a routerLink="/detail-book/{{item.id}}">{{item.title}} </a>của {{item.author}}<button routerLink="/edit-book/{{item.id}}">Sửa</button><button routerLink="/delete-book/{{item.id}}">Xóa</button>
+</div>

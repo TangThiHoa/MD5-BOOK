@@ -1,0 +1,7 @@
+<form [formGroup]="bookForm" (ngSubmit)="save()">
+  <input type="hidden" formControlName="id">
+  <input type="text" formControlName="title">
+  <input type="text" formControlName="author">
+  <input type="text" formControlName="description">
+  <button>Sửa</button>
+</form>
